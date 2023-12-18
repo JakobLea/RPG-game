@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1c4a2876fca96b7499d2a46686620931
+guid: d65316d7936af784db8d4bed35cc379e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wateranim-Sheet_0
+      name: wave_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd4bb187229ab8f4487ac6d0bdf3e603
-      internalID: 1134325922
+      spriteID: 7d1b38719928a9e48857867302c84d22
+      internalID: -971111686
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wateranim-Sheet_1
+      name: wave_1
       rect:
         serializedVersion: 2
         x: 16
@@ -158,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a463d06b5e8b684ea86de2d5d0b910e
-      internalID: -700625486
+      spriteID: 73eb3fe3246bb1f409cdf5f05b5bde74
+      internalID: 936872724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wateranim-Sheet_2
+      name: wave_2
       rect:
         serializedVersion: 2
         x: 32
@@ -179,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee7cd5e1464f72e4e920f4e03e761549
-      internalID: 586163111
+      spriteID: eaa2f8d868384464c8d701761bd1f5ad
+      internalID: 1573711709
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wateranim-Sheet_3
+      name: wave_3
       rect:
         serializedVersion: 2
         x: 48
@@ -200,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35a541134fcf1af4baa291324a3742db
-      internalID: -1992944776
+      spriteID: f71c0f369ec10ad4880fbf9ea264dfac
+      internalID: -970671816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wateranim-Sheet_4
+      name: wave_4
       rect:
         serializedVersion: 2
         x: 64
@@ -221,14 +221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 486aadadb7bc05f4485775309c489688
-      internalID: 1620632722
+      spriteID: 379572053c8db6e4fbe73d675782e71d
+      internalID: 1702457610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wateranim-Sheet_5
+      name: wave_5
       rect:
         serializedVersion: 2
         x: 80
@@ -242,14 +242,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4289c5e11360e554ab7b9a88495ca4a5
-      internalID: 1025308363
+      spriteID: cb649b98f3c1e9f4b9d95a3f00303678
+      internalID: -1477870948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wateranim-Sheet_6
+      name: wave_6
       rect:
         serializedVersion: 2
         x: 96
@@ -263,14 +263,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc9f89ae14310b541b9429079075712e
-      internalID: 1874254162
+      spriteID: 3bb12883cd270c84795a890ea1cdd6a8
+      internalID: -180464158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wateranim-Sheet_7
+      name: wave_7
       rect:
         serializedVersion: 2
         x: 112
@@ -284,14 +284,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6eb1a81f9c8e7047bcc10e618ef4986
-      internalID: -1525775503
+      spriteID: 47b0c78f35b7c9f4ebd2f45bf54a4203
+      internalID: 522508846
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wateranim-Sheet_8
+      name: wave_8
       rect:
         serializedVersion: 2
         x: 128
@@ -305,14 +305,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 365cd1c662b81594c9072320c77cc9c4
-      internalID: -2085454207
+      spriteID: d7a9e508163d0934fa873f03896bacc7
+      internalID: 2100450963
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wateranim-Sheet_9
+      name: wave_9
       rect:
         serializedVersion: 2
         x: 144
@@ -326,14 +326,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b86391955801905448f27c39787dec8e
-      internalID: -1962464311
+      spriteID: 90e7530833c845c48a61d4f3530d7304
+      internalID: 1573462363
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wateranim-Sheet_10
+      name: wave_10
       rect:
         serializedVersion: 2
         x: 160
@@ -347,14 +347,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40651b00b687fb44b99334243857dbb2
-      internalID: 498217387
+      spriteID: 7b849d39be50bc04f943df4dcdf1197c
+      internalID: 32796527
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wateranim-Sheet_11
+      name: wave_11
       rect:
         serializedVersion: 2
         x: 176
@@ -368,14 +368,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34619c5db86f4974a966c1680b15e8c4
-      internalID: 346049822
+      spriteID: 2f78d277459d044458751abbc230677d
+      internalID: 964126091
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wateranim-Sheet_12
+      name: wave_12
       rect:
         serializedVersion: 2
         x: 192
@@ -389,14 +389,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1309ff37da56ac34f984b919943a388e
-      internalID: -733651830
+      spriteID: 5c84226dea61c904999eb1d0769bbc40
+      internalID: 1808027221
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wateranim-Sheet_13
+      name: wave_13
       rect:
         serializedVersion: 2
         x: 208
@@ -410,14 +410,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 931d25fe011895545b3e0e8be394c502
-      internalID: 1747888330
+      spriteID: 2259333b86beb6f4996660140668bb0e
+      internalID: 655076983
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wateranim-Sheet_14
+      name: wave_14
       rect:
         serializedVersion: 2
         x: 224
@@ -431,14 +431,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b5163f769752604d98765f7a78c4d74
-      internalID: 419425962
+      spriteID: 0a0413f074a358943bc0b685c5665bd2
+      internalID: -11412684
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wateranim-Sheet_15
+      name: wave_15
       rect:
         serializedVersion: 2
         x: 240
@@ -452,8 +452,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f774e3b6b260e5f4487a4a5e67f6b365
-      internalID: 2126826298
+      spriteID: 9af39973973c03e499617c15f00e2ee2
+      internalID: 29853230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wave_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7363a147143727b468586439ca130af0
+      internalID: 898259352
       vertices: []
       indices: 
       edges: []
@@ -469,22 +490,23 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      wateranim-Sheet_0: 1134325922
-      wateranim-Sheet_1: -700625486
-      wateranim-Sheet_10: 498217387
-      wateranim-Sheet_11: 346049822
-      wateranim-Sheet_12: -733651830
-      wateranim-Sheet_13: 1747888330
-      wateranim-Sheet_14: 419425962
-      wateranim-Sheet_15: 2126826298
-      wateranim-Sheet_2: 586163111
-      wateranim-Sheet_3: -1992944776
-      wateranim-Sheet_4: 1620632722
-      wateranim-Sheet_5: 1025308363
-      wateranim-Sheet_6: 1874254162
-      wateranim-Sheet_7: -1525775503
-      wateranim-Sheet_8: -2085454207
-      wateranim-Sheet_9: -1962464311
+      wave_0: -971111686
+      wave_1: 936872724
+      wave_10: 32796527
+      wave_11: 964126091
+      wave_12: 1808027221
+      wave_13: 655076983
+      wave_14: -11412684
+      wave_15: 29853230
+      wave_16: 898259352
+      wave_2: 1573711709
+      wave_3: -970671816
+      wave_4: 1702457610
+      wave_5: -1477870948
+      wave_6: -180464158
+      wave_7: 522508846
+      wave_8: 2100450963
+      wave_9: 1573462363
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
