@@ -1155,8 +1155,8 @@ TextureImporter:
       name: Hoodieman_49
       rect:
         serializedVersion: 2
-        x: 0
-        y: 55
+        x: 96
+        y: 71
         width: 16
         height: 16
       alignment: 0
@@ -1168,6 +1168,69 @@ TextureImporter:
       bones: []
       spriteID: 48899d784f9350441a890a804fa96fcb
       internalID: -998151655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoodieman_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552044f9f26cbee47a8d655fac4227d4
+      internalID: 1956130823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoodieman_51
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa121a4140991c42b80b949debb2e60
+      internalID: -172280224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoodieman_52
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5937b8c7c3a90459a286f149b0c331
+      internalID: 905125697
       vertices: []
       indices: 
       edges: []
@@ -1229,6 +1292,9 @@ TextureImporter:
       Hoodieman_48: 1769379182
       Hoodieman_49: -998151655
       Hoodieman_5: -1217714654
+      Hoodieman_50: 1956130823
+      Hoodieman_51: -172280224
+      Hoodieman_52: 905125697
       Hoodieman_6: 1239084114
       Hoodieman_7: 187852268
       Hoodieman_8: -1623736903
