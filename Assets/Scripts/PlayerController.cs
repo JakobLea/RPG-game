@@ -28,7 +28,7 @@ public class PlayerController : MonoBehaviour
         ProccessInputs();
         Animate();
 
-        if(input.x < 0 && !facingLeft || input.x > 0 && facingLeft)
+        if (input.x < 0 && !facingLeft || input.x > 0 && facingLeft)
         {
             Flip();
         }
@@ -37,7 +37,7 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         rb.velocity = input * speed * Time.fixedDeltaTime;
-        if (isWalking )
+        if (isWalking)
         {
             Vector3 vector3 = Vector3.left * input.x + Vector3.down * input.y;
             Aim.rotation = Quaternion.LookRotation(Vector3.forward, vector3);
@@ -49,7 +49,7 @@ public class PlayerController : MonoBehaviour
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
 
-        if((moveX == 0 && moveY == 0) && (input.x != 0 || input.y != 0))
+        if ((moveX == 0 && moveY == 0) && (input.x != 0 || input.y != 0))
         {
             isWalking = false;
             lastmoveDirection = input;
@@ -84,4 +84,3 @@ public class PlayerController : MonoBehaviour
         facingLeft = !facingLeft;
     }
 }
-
