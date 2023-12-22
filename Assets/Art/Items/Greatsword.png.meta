@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 44c2adaa0321ede4a87cad707fdc187f
+guid: 1c2ae28be30ec94479654669f3709c48
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,43 +123,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sword-Sheet-export_0
+      name: Greatsword_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 16
-        width: 32
-        height: 36
+        y: 7
+        width: 7
+        height: 25
       alignment: 9
-      pivot: {x: 0.7503334, y: 0.5}
+      pivot: {x: 0.50000006, y: 0.9806401}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 215dbcd04637adb46bcfd1168b81881c
-      internalID: 916989240
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sword-Sheet-export_1
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 16
-        width: 32
-        height: 36
-      alignment: 9
-      pivot: {x: 0.7502501, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 992f4397e7648154ebc96702c34211e1
-      internalID: 1225358193
+      spriteID: a0a5158974fcf354e9b45793f63a0a61
+      internalID: -2021593220
       vertices: []
       indices: 
       edges: []
@@ -175,8 +154,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      sword-Sheet-export_0: 916989240
-      sword-Sheet-export_1: 1225358193
+      Greatsword_0: -2021593220
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
