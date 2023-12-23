@@ -32,6 +32,8 @@ public class PlayerController : MonoBehaviour
         {
             Flip();
         }
+
+ 
     }
 
     private void FixedUpdate()
