@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     private Vector2 input;
 
     Animator anim;
-    private Vector2 lastmoveDirection;
+    public Vector2 lastMoveDirection;
     private bool facingLeft = true;
 
     public Transform Aim;
@@ -54,8 +54,8 @@ public class PlayerController : MonoBehaviour
         if ((moveX == 0 && moveY == 0) && (input.x != 0 || input.y != 0))
         {
             isWalking = false;
-            lastmoveDirection = input;
-            Vector3 vector3 = Vector3.left * lastmoveDirection.x + Vector3.down * lastmoveDirection.y;
+            lastMoveDirection = input;
+            Vector3 vector3 = Vector3.left * lastMoveDirection.x + Vector3.down * lastMoveDirection.y;
             Aim.rotation = Quaternion.LookRotation(Vector3.forward, vector3);
         }
         else if (moveX != 0 || moveY != 0)
@@ -74,8 +74,8 @@ public class PlayerController : MonoBehaviour
         anim.SetFloat("MoveX", input.x);
         anim.SetFloat("MoveY", input.y);
         anim.SetFloat("MoveMagnitude", input.magnitude);
-        anim.SetFloat("LastMoveX", lastmoveDirection.x);
-        anim.SetFloat("LastMoveY", lastmoveDirection.y);
+        anim.SetFloat("LastMoveX", lastMoveDirection.x);
+        anim.SetFloat("LastMoveY", lastMoveDirection.y);
     }
 
     void Flip()

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class Attack : MonoBehaviour
@@ -10,6 +11,13 @@ public class Attack : MonoBehaviour
     float atkTimer = 0f;
 
     [SerializeField] private Animator anim;
+    private PlayerController playerController;
+
+    void Start()
+    {
+        // Assuming the PlayerController script is attached to the same GameObject
+        playerController = GetComponent<PlayerController>();
+    }
 
     // Update is called once per frame
     void Update()
@@ -18,7 +26,37 @@ public class Attack : MonoBehaviour
 
         if (Input.GetKeyUp(KeyCode.J) || Input.GetMouseButton(0))
         {
-            anim.SetTrigger("Attack");
+            // Determine which animation to play based on the last movement direction
+            if (playerController.lastMoveDirection.x == 0 && playerController.lastMoveDirection.y == 0)
+            {
+                // Player is not moving, choose an appropriate default animation or leave it empty
+                anim.SetTrigger("Attack");
+            }
+            else
+            {
+                // Player is moving, determine the direction
+                float horizontal = Mathf.Abs(playerController.lastMoveDirection.x);
+                float vertical = Mathf.Abs(playerController.lastMoveDirection.y);
+
+                if (horizontal > vertical)
+                {
+                    // Horizontal movement is more significant, play left or right attack animation
+                    anim.SetTrigger("Attack");
+                }
+                else
+                {
+                    // Vertical movement is more significant, play up or down attack animation
+                    if (playerController.lastMoveDirection.y > 0)
+                    {
+                        anim.SetTrigger("AttackUp");
+                    }
+                    else
+                    {
+                        anim.SetTrigger("AttackDown");
+                    }
+                }
+            }
+
             StartCoroutine(AttackWithDelay());
         }
     }
