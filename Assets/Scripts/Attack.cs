@@ -19,8 +19,15 @@ public class Attack : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.J) || Input.GetMouseButton(0))
         {
             anim.SetTrigger("Attack");
-            OnAttack();
+            StartCoroutine(AttackWithDelay());
         }
+    }
+
+    IEnumerator AttackWithDelay()
+    {
+        yield return new WaitForSeconds(0.45f); // Adjust the delay as needed
+
+        OnAttack();
     }
 
     void OnAttack()
