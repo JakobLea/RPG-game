@@ -10,7 +10,7 @@ public class Enemy : MonoBehaviour
     Transform target;
     Vector2 moveDirection;
 
-    float health, maxHealth = 3f; 
+    float health, maxHealth = 150f; 
 
     private void Awake()
     {
