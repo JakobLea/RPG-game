@@ -15,7 +15,6 @@ public class Attack : MonoBehaviour
 
     void Start()
     {
-        // Assuming the PlayerController script is attached to the same GameObject
         playerController = GetComponent<PlayerController>();
     }
 
